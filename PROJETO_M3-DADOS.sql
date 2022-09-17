@@ -15,12 +15,7 @@ CREATE TABLE "curso" (
   "id_curso" int PRIMARY KEY,
   "nome_curso" varchar(50)
 );
-
-CREATE TABLE "curso" (
-  "id_curso" int PRIMARY KEY,
-  "nome_curso" varchar(50)
-);
-
+   
 CREATE TABLE "facilitadores" (
   "id_facilitador" int PRIMARY KEY,
   "nome_facilitador" varchar(50),
