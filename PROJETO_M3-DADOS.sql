@@ -38,5 +38,34 @@ alter table aluno add foreign key (id_turma) references turma (id_turma);
 alter table turma add foreign key (id_facilitador) references facilitadores (id_facilitador);
 alter table turma add foreign key (id_curso) references curso (id_curso);
 
---
+--populando as tabelas
+insert into aluno values 
+( 1	, 1	, 1	, '34523233322'  , 'Cleberson FIgueiroa',	 '20/01/2000'	, 'M' ,	22 ) ,
+( 2	, 2	, 1	, '23112344466'  , 'Gustavo Ribeiro'	,    '30/09/1994'	, 'M' ,	27 ) ,
+( 3	, 1	, 1	, '23455678999'  , 'Wanderson Limas'	,    '25/12/2009'	, 'M' ,	12 ) ,
+( 4	, 1	, 2	, '22345578988'  , 'Elena Tomas'	    ,    '21/04/1976'	, 'F' ,	46 ) ,
+( 5	, 2	, 2	, '33344556799'  , 'Renato Vieria'	    ,    '17/12/1964'	, 'M' ,	57 ) ,
+( 6	, 2	, 3	, '22244123456'  , 'Angelia Dunas'	    ,    '05/10/1998'	, 'F' ,	23 ) ,
+( 7	, 1	, 4	, '54245255355'  , 'Bianca Gusmão'	    ,    '09/06/1987'	, 'F' ,	35 ) ,
+( 8	, 2	, 4	, '33344567789'  , 'Paula Andrade'	    ,    '09/11/1990'	, 'F' ,	31 ) ,
+( 9	, 1	, 5	, '33344567721'  , 'Bento Silveira'	,    '10/05/2000'	, 'M' ,	22 ) ;
 
+insert into curso values
+( 1 ,	'Desenv. full stack') ,
+( 2 ,	'Análise da dados') ;
+
+insert into facilitadores values
+( 1 ,	'Fabiano Souza	   ',  '35436577222') ,
+( 2 ,	'Guilherme Bicalho	', '87609877771') ,
+( 3 ,	'Joana Silveira	   ',  '65487645399') ,
+( 4 ,	'Gabriella Bianco	', '71687644212') ,
+( 5 ,	'Julio Gusmão	   ',  '87665423487') ,
+( 6 ,	'Felipe Sierra	   ',  '16536587699') ;
+
+
+insert into turma values
+( 1	, 1 , 2	, 'TURMA1' , 'EM ANDAMENTO') ,
+( 2	, 1 , 2	, 'TURMA2' , 'EM ANDAMENTO') ,
+( 3	, 2 , 1	, 'TURMA3' , 'CONCLUÌDO   ') ,
+( 4	, 3 , 1	, 'TURMA4' , 'EM ANDAMENTO') ,
+( 5	, 4 , 2	, 'TURMA5' , 'CONCLUÌDO   ') ;
