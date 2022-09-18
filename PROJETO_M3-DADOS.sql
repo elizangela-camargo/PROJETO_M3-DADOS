@@ -69,3 +69,12 @@ insert into turma values
 ( 3	, 2 , 1	, 'TURMA3' , 'CONCLUÌDO   ') ,
 ( 4	, 3 , 1	, 'TURMA4' , 'EM ANDAMENTO') ,
 ( 5	, 4 , 2	, 'TURMA5' , 'CONCLUÌDO   ') ;
+
+--Queries
+--Selecionar a quantidade total de estudantes cadastrados no banco;
+select count(id_aluno) as qtd_alunos from aluno;
+--**************************************************************
+-- Selecionar todos os estudantes com os respectivos cursos que eles estão cadastrados;
+select id_curso,nome_aluno from aluno;
+
+
