@@ -15,7 +15,12 @@ CREATE TABLE "curso" (
   "id_curso" int PRIMARY KEY,
   "nome_curso" varchar(50)
 );
-   
+
+CREATE TABLE "curso" (
+  "id_curso" int PRIMARY KEY,
+  "nome_curso" varchar(50)
+);
+
 CREATE TABLE "facilitadores" (
   "id_facilitador" int PRIMARY KEY,
   "nome_facilitador" varchar(50),
@@ -77,4 +82,22 @@ select count(id_aluno) as qtd_alunos from aluno;
 -- Selecionar todos os estudantes com os respectivos cursos que eles estão cadastrados;
 select id_curso,nome_aluno from aluno;
 
+--**************************************************************
+--Selecionar quais pessoas facilitadoras atuam em mais de uma turma.
+select facilitadores.nome_facilitador, count(turma.id_facilitador) 
+as staus from turma
+    inner join facilitadores
+        on turma.id_facilitador = facilitadores.id_facilitador
+where status = 'EM ANDAMENTO' 
+group by facilitadores.nome_facilitador
+    having count(turma.id_facilitador) > 1
+order by count(turma.id_facilitador) desc
+;
+--Selects escolhidos 
+--Selecionar quantos facilitadores tem na base de dados
+select count(id_facilitador) from facilitadores;
 
+---Selecionar as alunas genero feminino tem na base de dados
+SELECT nome_aluno, genero  
+FROM  aluno 
+WHERE genero='F';
