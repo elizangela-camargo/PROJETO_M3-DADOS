@@ -2,11 +2,11 @@
 ![BIN DATA (1)](https://user-images.githubusercontent.com/40433498/192171738-779c3cee-92d7-42ff-99d7-db804e526041.gif)
 
 ### OBJETIVO
-1. O objetivo do projeto é desenvolver um fale conosco automático em Python, para a Revi, uma empresa de viagens, onde o atendimento contará com as opções abaixo:  
-2. Gerar uma representação das entidades e seus respectivos atributos;
-3. Criar a modelagem do banco de dados;
-4. Criar os scripts SQL para criação das tabelas com seus respectivos atributos e com a base de dados criadas;
-5. Inserir alguns dados, executar algumas consultas para gerar informações estratégicas para a área
+  
+1. Gerar uma representação das entidades e seus respectivos atributos;
+2. Criar a modelagem do banco de dados;
+3. Criar os scripts SQL para criação das tabelas com seus respectivos atributos e com a base de dados criadas;
+4. Inserir alguns dados, executar algumas consultas para gerar informações estratégicas para a área
 de ensino da Resilia.
 
 ### SOBRE A BIN
