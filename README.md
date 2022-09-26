@@ -12,7 +12,7 @@ de ensino da Resilia.
 ### SOBRE A BIN
 <img src="https://user-images.githubusercontent.com/40433498/192239808-da8ebacf-095b-4ab2-830e-0b9730949667.PNG" min-width="400px" max-width="200px" width="200px" align="right" >
 
- A BIN é uma empresa ficticia, data driven, que tem como objetivo manipular dados de forma segura , para que seus cliente tenham uma melhor leitura dos resultados.
+ A BIN é uma empresa fictícia, data driven, que tem como objetivo manipular dados de forma segura , para que seus cliente tenham uma melhor leitura dos resultados.
 
 
 
