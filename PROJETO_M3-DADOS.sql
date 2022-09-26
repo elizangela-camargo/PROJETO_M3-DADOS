@@ -80,7 +80,10 @@ insert into turma values
 select count(id_aluno) as qtd_alunos from aluno;
 --**************************************************************
 -- Selecionar todos os estudantes com os respectivos cursos que eles estão cadastrados;
-select id_curso,nome_aluno from aluno;
+select nome_aluno,nome_curso from curso
+	inner join aluno
+		on curso.id_curso = aluno.id_curso
+		order by curso;
 
 --**************************************************************
 --Selecionar quais pessoas facilitadoras atuam em mais de uma turma.
@@ -93,11 +96,17 @@ group by facilitadores.nome_facilitador
     having count(turma.id_facilitador) > 1
 order by count(turma.id_facilitador) desc
 ;
+--*****************************************************************
 --Selects escolhidos 
 --Selecionar quantos facilitadores tem na base de dados
 select count(id_facilitador) from facilitadores;
-
+--*****************************************************************
 ---Selecionar as alunas genero feminino tem na base de dados
 SELECT nome_aluno, genero  
 FROM  aluno 
 WHERE genero='F';
+--*****************************************************************
+---Selecionar alunos com mais de 30
+SELECT nome_aluno, idade  
+FROM  aluno 
+WHERE idade > 30;
