@@ -38,4 +38,4 @@ de ensino da Resilia.
   <a href="#" alt="Linkedin">
   <a href="https://www.linkedin.com/in/elizangela-camargo-3ab908144/" target="_blank"> <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white"/> 
 
- ![apresentação](https://user-images.githubusercontent.com/40433498/192242838-636e6e0a-08d8-40b7-90c5-5f753c7e4b4a.PNG)
+ [<img src="https://user-images.githubusercontent.com/40433498/192242838-636e6e0a-08d8-40b7-90c5-5f753c7e4b4a.PNG"/>](https:https://www.canva.com/design/DAFNKXvh5FY/IeyZla1EMRBC3KP6GMhKEQ/view?utm_content=DAFNKXvh5FY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink/)
